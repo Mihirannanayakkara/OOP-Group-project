@@ -1,0 +1,116 @@
+h1 {
+  font-size: 40px; /* Increased font size to 60px */
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.btnbtn-info {
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #007BFF; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transform: translateX(50px);
+  transition: transform 0.3s; 
+
+
+}
+
+.btnbtn-info:hover {
+  transform: translateX(5px); /* Apply the transform effect on hover */
+}
+
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tbl-header {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+  padding: 30px 15px; /* Increased padding to 30px */
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px; /* Increased font size to 16px */
+  color: #fff;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 20px; /* Increased padding to 20px */
+  text-align: left;
+  vertical-align: middle;
+  font-weight: bold; /* Set font weight to bold for the data */
+  font-size: 16px; /* Increased font size to 16px */
+  color: rgb(0, 0, 64);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+/* Rest of your CSS remains the same */
+
+/* demo styles */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body {
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 50px;
+}
+
+/* follow me template */
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 14px; /* Increased font size to 14px */
+  font-family: arial;
+  color: #fff;
+}
+
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 16px; /* Increased font size to 16px */
+  position: relative;
+  top: 2px;
+}
+
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+/* for custom scrollbar for webkit browser*/
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
